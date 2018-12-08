@@ -1,0 +1,10 @@
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\obj\Debug\netstandard2.0\Tut09.csprojAssemblyReference.cache
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\obj\Debug\netstandard2.0\Tut09.csproj.CoreCompileInputs.cache
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\obj\Debug\netstandard2.0\Tut09.AssemblyInfoInputs.cache
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\obj\Debug\netstandard2.0\Tut09.AssemblyInfo.cs
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\bin\Debug\netstandard2.0\Assets\RocketModel.fus
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\bin\Debug\netstandard2.0\Tut09.deps.json
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\bin\Debug\netstandard2.0\Tut09.dll
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\bin\Debug\netstandard2.0\Tut09.pdb
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\obj\Debug\netstandard2.0\Tut09.dll
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut09\obj\Debug\netstandard2.0\Tut09.pdb

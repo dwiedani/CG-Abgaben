@@ -41,7 +41,7 @@ var $asm24 = JSIL.GetAssembly("System.Xml, Version=4.0.0.0, Culture=neutral, Pub
 var $asm25 = JSIL.GetAssembly("Tut10, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
 
 if (typeof (contentManifest) !== "object") { JSIL.GlobalNamespace.contentManifest = {}; };
-contentManifest["Fusee.Engine.Player.Web.exe"] = [    ["Script", "Tut10, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 17843 }],
+contentManifest["Fusee.Engine.Player.Web.exe"] = [    ["Script", "Tut10, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 21169 }],
 
     ["Script", "Fusee.Engine.Player.Web, Version=0.7.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 10124 }],
     ["Script", "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 4348458 }],

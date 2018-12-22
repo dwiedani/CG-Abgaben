@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Users\\Swetlana\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Daniel Schlegel\\Documents\\GitHub\\CG-Abgaben\\Tut10\\Tut10.csproj",
+      "projectUniqueName": "C:\\Users\\Swetlana\\Documents\\GitHub\\CG-Abgaben\\Tut10\\Tut10.csproj",
       "projectName": "Tut10",
-      "projectPath": "D:\\Daniel Schlegel\\Documents\\GitHub\\CG-Abgaben\\Tut10\\Tut10.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "D:\\Daniel Schlegel\\Documents\\GitHub\\CG-Abgaben\\Tut10\\obj\\",
+      "projectPath": "C:\\Users\\Swetlana\\Documents\\GitHub\\CG-Abgaben\\Tut10\\Tut10.csproj",
+      "packagesPath": "C:\\Users\\Swetlana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Swetlana\\Documents\\GitHub\\CG-Abgaben\\Tut10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Swetlana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

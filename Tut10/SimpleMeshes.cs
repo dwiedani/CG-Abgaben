@@ -16,7 +16,8 @@ namespace Fusee.Tutorial.Core
             {
                 Vertices = new[]
                 {
-                    // left, bottom, front vertex
+                   
+        // left, bottom, front vertex
                     new float3(-0.5f*size.x, -0.5f*size.y, -0.5f*size.z), // 0  - belongs to left
                     new float3(-0.5f*size.x, -0.5f*size.y, -0.5f*size.z), // 1  - belongs to bottom
                     new float3(-0.5f*size.x, -0.5f*size.y, -0.5f*size.z), // 2  - belongs to front
@@ -150,42 +151,98 @@ namespace Fusee.Tutorial.Core
                     new float2( 1,  1),  // 22 - belongs to up
                     new float2( 0,  1),  // 23 - belongs to back                    
                 },
-                BoundingBox = new AABBf(-0.5f * size, 0.5f*size)
+                BoundingBox = new AABBf(-0.5f * size, 0.5f * size)
             };
         }
 
         public static Mesh CreateCylinder(float radius, float height, int segments)
         {
-            float3[] verts = new float3[segments+1];
-            float3[] norms = new float3[segments+1];
-            ushort[] tris  = new ushort[segments * 3];
+            float3[] verts = new float3[4 * segments + 2];
+            float3[] norms = new float3[4 * segments + 2];
+            ushort[] tris  = new ushort[4 * segments * 3];
 
             float delta = 2 * M.Pi / segments;
 
-            // The center (store at the last position in the vertex array (index 'segments'))
-            verts[segments] = float3.Zero;
-            norms[segments] = float3.UnitY;
+            // Start- und Endpunkte oben
+            verts[0] = new float3(radius, 0.5f * height, 0);
+            norms[0] = new float3(1, 0.5f * height, 0);
 
-            // The first and last point (first point in the list (index 0))
-            verts[0] = new float3(radius, 0, 0);
-            norms[0] = float3.UnitY;
+            verts[1] = new float3(radius, 0.5f * height, 0);
+            norms[1] = new float3(1, 0, 0);
+
+            // Start- und Endpunkte unten
+            verts[2] = new float3(radius, -0.5f * height, 0);
+            norms[2] = new float3(1, 0, 0);
+
+            verts[3] = new float3(radius, -0.5f * height, 0);
+            norms[3] = new float3(1, -0.5f * height, 0);
+
+            // Mittelpunkt oben
+            verts[4 * segments] = new float3(0, 0.5f * height, 0);
+            norms[4 * segments] = new float3(0, 0.5f * height, 0);  
+
+            // Mittelpunkt unten
+            verts[4 * segments + 1] = new float3(0, -0.5f * height, 0);
+            norms[4 * segments + 1] = new float3(0, -0.5f * height, 0);  
 
             for (int i = 1; i < segments; i++)
             {
-                // Create the current point and store it at index i
-                verts[i] = new float3(radius * M.Cos(i * delta), 0, radius * M.Sin(i * delta));
-                norms[i] = float3.UnitY;
+                // Deckfläche oben
+                verts[4 * i] = new float3(radius * M.Cos(i * delta), 0.5f * height, radius * M.Sin(i * delta));
+                norms[4 * i] = new float3(M.Cos(i * delta), 0.5f * height, M.Sin(i * delta));  
 
-                // Stitch the current segment (using the center, the current and the previous point)
-                tris[3*i - 1] = (ushort) segments; // center point
-                tris[3*i - 2] = (ushort) i;        // current segment point
-                tris[3*i - 3] = (ushort) (i-1);    // previous segment point
+                // Mantelrand oben
+                verts[4 * i + 1] = new float3(radius * M.Cos(i * delta), 0.5f * height, radius * M.Sin(i * delta));
+                norms[4 * i + 1] = new float3(M.Cos(i * delta), 0, M.Sin(i * delta));
+
+                // Mantelrand unten
+                verts[4 * i + 2] = new float3(radius * M.Cos(i * delta), -0.5f * height, radius * M.Sin(i * delta));
+                norms[4 * i + 2] = new float3(M.Cos(i * delta), 0, M.Sin(i * delta));
+
+                // Deckfläche unten
+                verts[4 * i + 3] = new float3(radius * M.Cos(i * delta), -0.5f * height, radius * M.Sin(i * delta));
+                norms[4 * i + 3] = new float3(M.Cos(i * delta), -0.5f * height, M.Sin(i * delta));
+
+                // Dreieck oben
+                tris[12 * (i - 1) + 0] = (ushort) (4 * segments);       // top center point
+                tris[12 * (i - 1) + 1] = (ushort) (4 * (i - 1) + 0);    // current top segment point
+                tris[12 * (i - 1) + 2] = (ushort) (4 * i + 0);          // previous top segment point
+
+                // Mantel Dreieck unten
+                tris[12 * (i - 1) + 3] = (ushort) (4 * (i - 1) + 2);    // previous lower shell point
+                tris[12 * (i - 1) + 4] = (ushort) (4 * i + 2);          // current lower shell point
+                tris[12 * (i - 1) + 5] = (ushort) (4 * i + 1);          // current top shell point
+
+                // Mantel Dreieck oben
+                tris[12 * (i - 1) + 6] = (ushort) (4 * (i - 1) + 2);    // previous lower shell point
+                tris[12 * (i - 1) + 7] = (ushort) (4 * i + 1);          // current top shell point
+                tris[12 * (i - 1) + 8] = (ushort) (4 * (i - 1) + 1);    // previous top shell point
+
+                // Dreieck unten
+                tris[12 * (i - 1) + 9]  = (ushort) (4 * segments + 1);  // bottom center point
+                tris[12 * (i - 1) + 10] = (ushort) (4 * (i - 1) + 3);   // current bottom segment point
+                tris[12 * (i - 1) + 11] = (ushort) (4 * i + 3);         // previous bottom segment point
             }
 
-            // Stitch the last segment
-            tris[3 * segments - 1] = (ushort)segments;          // center point
-            tris[3 * segments - 2] = (ushort)0;                 // wrap around
-            tris[3 * segments - 3] = (ushort)(segments - 1);    // last segment point
+            // Letztes Dreieck oben
+            tris[12 * segments - 12] = (ushort) (4 * segments);             // top center point
+            tris[12 * segments - 11] = (ushort) (4 * (segments - 1));       // current top segment point
+            tris[12 * segments - 10] = (ushort) (0);                        // previous top segment point
+
+            // Letztes Mantel Dreieck unten
+            tris[12 * segments - 9] = (ushort) (4 * (segments - 1) + 2);    // previous lower shell point
+            tris[12 * segments - 8] = (ushort) (2);                         // current lower shell point
+            tris[12 * segments - 7] = (ushort) (1);                         // current top shell point
+
+            // Letztes Mantel Dreieck oben
+            tris[12 * segments - 6] = (ushort) (4 * (segments - 1) + 2);    // previous lower shell point
+            tris[12 * segments - 5] = (ushort) (1);                         // current top shell point
+            tris[12 * segments - 4] = (ushort) (4 * (segments - 1) + 1);    // previous top shell point
+
+            // Letztes Dreieck unten
+            tris[12 * segments - 3] = (ushort) (4 * segments + 1);          // bottom center point
+            tris[12 * segments - 2] = (ushort) (4 * (segments - 1) + 3);    // current bottom segment point
+            tris[12 * segments - 1] = (ushort) (3);                         // previous bottom segment point
 
             return new Mesh
             {
@@ -194,6 +251,7 @@ namespace Fusee.Tutorial.Core
                 Triangles = tris,
             };
         }
+
 
         public static Mesh CreateCone(float radius, float height, int segments)
         {

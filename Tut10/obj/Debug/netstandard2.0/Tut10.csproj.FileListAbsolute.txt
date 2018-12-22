@@ -8,3 +8,13 @@ C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut
 C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.AssemblyInfo.cs
 C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.dll
 C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.pdb
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Assets\RocketModel.fus
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Tut10.deps.json
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Tut10.dll
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Tut10.pdb
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.csprojAssemblyReference.cache
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.csproj.CoreCompileInputs.cache
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.AssemblyInfoInputs.cache
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.AssemblyInfo.cs
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.dll
+D:\Daniel Schlegel\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.pdb

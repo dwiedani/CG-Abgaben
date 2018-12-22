@@ -1,0 +1,10 @@
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Assets\RocketModel.fus
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Tut10.deps.json
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Tut10.dll
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\bin\Debug\netstandard2.0\Tut10.pdb
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.csprojAssemblyReference.cache
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.csproj.CoreCompileInputs.cache
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.AssemblyInfoInputs.cache
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.AssemblyInfo.cs
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.dll
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut10\obj\Debug\netstandard2.0\Tut10.pdb

@@ -1,0 +1,11 @@
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\bin\Debug\netstandard2.0\Assets\RocketModel.fus
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\bin\Debug\netstandard2.0\Assets\tank.fus
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\bin\Debug\netstandard2.0\Tut11_Assetspicking.deps.json
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\bin\Debug\netstandard2.0\Tut11_Assetspicking.dll
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\bin\Debug\netstandard2.0\Tut11_Assetspicking.pdb
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\obj\Debug\netstandard2.0\Tut11_Assetspicking.csprojAssemblyReference.cache
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\obj\Debug\netstandard2.0\Tut11_Assetspicking.csproj.CoreCompileInputs.cache
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\obj\Debug\netstandard2.0\Tut11_Assetspicking.AssemblyInfoInputs.cache
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\obj\Debug\netstandard2.0\Tut11_Assetspicking.AssemblyInfo.cs
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\obj\Debug\netstandard2.0\Tut11_Assetspicking.dll
+C:\Users\Swetlana\Documents\GitHub\CG-Abgaben\Tut11_Assetspicking\obj\Debug\netstandard2.0\Tut11_Assetspicking.pdb

@@ -1,0 +1,12 @@
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\bin\Debug\netstandard2.0\Assets\AboutFuseeAssets.txt
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\bin\Debug\netstandard2.0\Assets\CubeCar.fus
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\bin\Debug\netstandard2.0\Assets\Tank.fus
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\bin\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.deps.json
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\bin\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.dll
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\bin\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.pdb
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\obj\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.csprojAssemblyReference.cache
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\obj\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.csproj.CoreCompileInputs.cache
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\obj\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.AssemblyInfoInputs.cache
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\obj\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.AssemblyInfo.cs
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\obj\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.dll
+D:\Dokumente\GitHub\ComputergrafikMIB\Tut11_AssetsPickingCompleted\obj\Debug\netstandard2.0\Tut11_AssetsPickingCompleted.pdb

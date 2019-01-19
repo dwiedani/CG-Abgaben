@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Daniel\\Documents\\GitHub\\CG-Abgaben\\Tut12_Driving\\Tut11_AssetsPickingCompleted.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
